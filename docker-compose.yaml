@@ -6,9 +6,9 @@ services:
     volumes:
       - './temp'
     environment:
-      - POSTGRES_DB=jdbc:postgresql://postgres_dev:5432/emerald-jwt-auth
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=secret
+#      - POSTGRES_DB=jdbc:postgresql://postgres_dev:5432/emerald-jwt-auth
+#      - POSTGRES_USER=postgres
+#      - POSTGRES_PASSWORD=secret
       - SPRING_PROFILES_ACTIVE=docker
     ports:
       - '61100:61100'
